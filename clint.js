@@ -9,7 +9,7 @@ button.addEventListener('click',()=>{
         usn:myusn.value,
         city:mycity.value
     };
-    fetch("http://192.168.20.146:5050/api/server",{
+    fetch("http://127.0.0.1:5050/api/server",{
         method:"POST",
         headers:{
             "content-type":"application/json"
